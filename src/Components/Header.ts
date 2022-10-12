@@ -7,7 +7,7 @@ class Header extends Component {
 
   render() {
     super.render();
-    this.domElement.innerHTML = `Series List`;
+    this.domElement.innerHTML = "<h1>Series List</h1>";
   }
 }
 
