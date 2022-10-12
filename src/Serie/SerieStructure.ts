@@ -7,5 +7,7 @@ interface SerieStructure {
   watched: boolean;
   score: number;
   emmies: number;
+
+  changeScore: (score: number) => void;
 }
 export default SerieStructure;
