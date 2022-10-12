@@ -19,6 +19,12 @@
   "homepage": "https://github.com/carlosdelblanco/202209-w3ch3-adria-martinez-carlos-delblanco#readme",
   "description": "",
   "devDependencies": {
-    "husky": "^8.0.0"
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-xo": "^0.42.0",
+    "eslint-config-xo-typescript": "^0.53.0",
+    "husky": "^8.0.0",
+    "typescript": "^4.8.4"
   }
 }
