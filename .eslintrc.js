@@ -15,6 +15,7 @@ module.exports = {
         ],
         "@typescript-eslint/indent": "off",
         "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/consistent-type-imports": "off",
       },
     },
   ],
@@ -34,5 +35,6 @@ module.exports = {
         caughtErrorsIgnorePattern: /^_$/.source,
       },
     ],
+    "@typescript-eslint/consistent-type-imports": "off",
   },
 };
