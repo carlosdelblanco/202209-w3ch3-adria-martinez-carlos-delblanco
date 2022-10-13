@@ -1,5 +1,5 @@
 import AppContainer from "./Components/AppContainer/AppContainer.js";
-const appContainer = document.querySelector(".container");
+const root = document.querySelector(".root");
 
-const app = new AppContainer(appContainer as HTMLElement);
-app.render();
+const appContainer = new AppContainer(root as HTMLElement);
+appContainer.render();
