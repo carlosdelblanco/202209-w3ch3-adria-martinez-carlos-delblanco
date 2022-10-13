@@ -1,4 +1,4 @@
-interface SerieStructure {
+interface Serie {
   id: number;
   name: string;
   creator: string;
@@ -7,7 +7,5 @@ interface SerieStructure {
   watched: boolean;
   score: number;
   emmies: number;
-
-  changeScore: (score: number) => void;
 }
-export default SerieStructure;
+export default Serie;
