@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "./Header.js";
 
 describe("Given the a header instance", () => {
   describe("When the header is created", () => {
