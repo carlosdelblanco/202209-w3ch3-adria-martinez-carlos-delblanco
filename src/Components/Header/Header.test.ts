@@ -1,13 +1,19 @@
 import Header from "./Header";
 
-describe("Given the a header instance", () => {
-  describe("When the header is created", () => {
-    test("it should appear the title into the document", () => {});
-    const screen = document.createElement("body");
+describe("Given the a header component", () => {
+  describe("When the header component is render", () => {
+    test("Then the title  of header should be inside should appear the title into the document with class 'main-title'", () => {});
+
+    const screen = document.createElement("div");
     const tag = "h1";
+    const expectedClassName = "main-title";
+
     const header = new Header(screen, tag);
     header.render();
-    const showInScreen = screen.querySelector("h1");
-    expect(showInScreen).not.toBeNull();
+
+    const query = screen.querySelector("h1");
+
+    expect(query).not.toBeNull();
+    expect(query.className).toBe(expectedClassName);
   });
 });
